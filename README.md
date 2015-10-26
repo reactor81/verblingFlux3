@@ -4,7 +4,7 @@
 
 ### Background
 
-I have a YouTube Video Demo here: https://youtu.be/MTtejvf_1Gs
+I have a YouTube Video Demo here: https://youtu.be/MTtejvf_1Gs  . But it's quite easy to run if you'd like to give it a shot with a few friends ^^
 
 [![Alt text for your video](http://img.youtube.com/vi/Vp3I6Wj_7YY/0.jpg)](https://www.youtube.com/watch?v=Vp3I6Wj_7YY)
 
