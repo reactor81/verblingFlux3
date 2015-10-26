@@ -26,7 +26,7 @@ The Skylink API uses CORS and requires me to pick a domain name that will host t
 
 3) run 'npm run webserver' to start webserver
 
-4) Make sure you are properly dressed. the Rebel Alliance #StarChat is broadcast throughout the known universe. 
+4) Make sure you are properly dressed. The Rebel Alliance #StarChat is broadcast throughout the known universe. 
 
 5) Navigate to http://localhost:5000/submissions/verbling/index.html in Chrome (Chrome on Windows 7 tested, no other WebRTC enabled browsers were tested..).
 
@@ -38,11 +38,13 @@ build: npm run build
 
 watch: npm run watch
 
+start webserver: npm run webserver
+
 ### Usage
 
-Connect to http://localhost:5000/submissions/verbling/index.html in Chrome. Click 'Allow' if Chrome prompts you for permission to use your camera and microphone. Invite other friends in other spaceships (computers) to also run their own servers (npm run webserver required, the websocket server is optional and only need for Obi-Wan updates) and connect to http://localhost:5000/submissions/verbling/index.html from their machines. Enjoy group video + audio chat together. If you have no friends or they do not have spaceships, you can test using multiple tabs, however, depending on your spaceship configuration, there is likely to be only 1 camera feed.. 
+After starting the webserver with 'npm run webserver', connect to http://localhost:5000/submissions/verbling/index.html in Chrome. Click 'Allow' if Chrome prompts you for permission to use your camera and microphone. Invite other friends in other spaceships (computers) to also run their own servers (npm run webserver required, the websocket server is optional and only need for Obi-Wan updates) and connect to http://localhost:5000/submissions/verbling/index.html from their machines. Enjoy group video + audio chat together. If you have no friends or they do not have spaceships, you can test using multiple tabs, however, depending on your spaceship configuration, there is likely to be only 1 camera feed.. 
 
-Enjoy video chatting with Chewy, Yoda, Leia and Luke on the left. Note that Jar Jar Binks could not get his spaceships video camera to work so he is text chat only. Han Solo has grown shy in his old age and is also text chat only. 
+Enjoy video chatting with Chewy, Yoda, Leia and Luke on the left. Note that Jar Jar Binks could not get his spaceship video camera to work so he is text chat only. Han Solo has grown shy in his old age is text chat only as well. 
 
 ### Author
 
