@@ -19,7 +19,7 @@ export default class VideoPanel extends React.Component {
         <div className="css-video-panel" id="videopanel">
           <div className="css-video-square-container" id="myvideosquare">
             <div className="css-video-square-title">My Spaceship Video</div>
-            <video className="css-video-square-videoelem" id="myvideo" autoPlay></video>
+            <video className="css-video-square-videoelem" id="myvideo" autoPlay muted></video>
           </div>
         </div>
       </FluxComponent>
