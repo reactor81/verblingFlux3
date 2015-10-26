@@ -4,6 +4,11 @@
 
 ### Background
 
+I have a YouTube Video Demo here: https://youtu.be/MTtejvf_1Gs
+
+[![Alt text for your video](http://img.youtube.com/vi/Vp3I6Wj_7YY/0.jpg)](https://www.youtube.com/watch?v=Vp3I6Wj_7YY)
+
+
 This version has a WebRTC Video chat addon. Multiple users can open the page on different tabs / computers and have video+audio chat - in addition to the Firebase text chat addon from verblingFlux2 repo.
 
 I noticed the verbling/webrtc-lib repository and saw the Twilio library there. In my previous job, we briefly looked at the Twilio site, as well as OpenTok, and Temasys / Skylink.. We decided not to use a WebRTC BaaS/PaaS and created our own, including SIP, TURN and STUN servers. My responsibility was handling the entire web client portion - working with the JSSIP client library, setting up and connecting the media streams, creating mute audio/video buttons, etc. I also did a little bit of packet debugging with wireshark. 
