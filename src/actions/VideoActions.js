@@ -10,7 +10,7 @@ var VideoActions = {
 
       var vid = document.createElement('video');
       vid.autoplay = true;
-      vid.muted = true; // Added to avoid feedback when testing locally
+//    vid.muted = true; // needed if testing locally with multiple clients and want to avoid echo / feedback
       vid.id = peerId;
       vid.className = "css-video-square-videoelem";
       
